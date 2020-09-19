@@ -1,8 +1,6 @@
 class Dog 
   
   @@all = []
-  @@clear_all = []
-  @@print_all = []
   
   attr_reader :name
   
@@ -10,7 +8,6 @@ class Dog
     @name = name 
     @@all << self
     @save = save
-     
   end 
   
   def self.all 
