@@ -1,6 +1,8 @@
 class Dog 
   
   @@all = []
+   @@clear_all = []
+  @@print_all = []
   
   attr_reader :name
   
